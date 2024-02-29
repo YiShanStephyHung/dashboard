@@ -1,4 +1,4 @@
-# comx
+# dashboard
 
 ## Project setup
 ```
