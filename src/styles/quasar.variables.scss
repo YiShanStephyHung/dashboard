@@ -1,0 +1,123 @@
+// It's highly recommended to change the default colors
+// to match your app's branding.
+$breakpoint-xs: 576px !default; //599px
+$breakpoint-sm: 768px !default; //1023px
+$breakpoint-md: 992px !default; //1439px
+$breakpoint-lg: 1200px !default; //1919px
+$breakpoint-xl: 1440px !default;
+
+$primary: #8377bb;
+
+// 主題色 {使用: class="text-theme1"}
+$themeR: #e8686f;
+$themeO: #f0925d;
+$themeY: #e7c374;
+$themeG: #77bb84;
+$themeB: #3c88eb;
+$themeP: #8377bb;
+$themeW: #dbdbdb;
+.text-themeR {
+  color: $themeR;
+}
+.text-themeO {
+  color: $themeO;
+}
+.text-themeY {
+  color: $themeY;
+}
+.text-themeG {
+  color: $themeG;
+}
+.text-themeB {
+  color: $themeB;
+}
+.text-themeP {
+  color: $themeP;
+}
+.text-themeW {
+  color: $themeW;
+}
+.bg-themeR {
+  background-color: $themeR;
+}
+.bg-themeO {
+  background-color: $themeO;
+}
+.bg-themeY {
+  background-color: $themeY;
+}
+.bg-themeG {
+  background-color: $themeG;
+}
+.bg-themeB {
+  background-color: $themeB;
+}
+.bg-themeP {
+  background-color: $themeP;
+}
+.bg-themeW {
+  background-color: $themeW;
+}
+
+// 輔助色
+$aid1: #999c9e;
+$aid2: #676a6c;
+// $aid3: #c3ccd6;
+// $aid4: #ffffff;
+.text-aid1 {
+  color: $aid1;
+}
+.text-aid2 {
+  color: $aid2;
+}
+// .text-aid3 {
+//   color: $aid3;
+// }
+// .text-aid4 {
+//   color: $aid4;
+// }
+.bg-aid1 {
+  background-color: $aid1;
+}
+.bg-aid2 {
+  background-color: $aid2;
+}
+// .bg-aid3 {
+//   background-color: $aid3;
+// }
+// .bg-aid4 {
+//   background-color: $aid4;
+// }
+
+// 紫色背景
+$bg1: #f5f5f5;
+$bg2: #f7f7fb;
+// UP底色
+$bg3: #2f4050;
+.bg-bg1 {
+  background-color: $bg1;
+}
+.bg-bg2 {
+  background-color: $bg2;
+}
+.bg-bg3 {
+  background-color: $bg3;
+}
+
+$body-font-size: 14px;
+
+//字型大小定義
+.fz-xl {
+  font-size: $body-font-size * 1.714; //24px
+}
+.fz-larger {
+  font-size: $body-font-size * 1.286; //18px
+}
+.fz-normal {
+  font-size: $body-font-size * 1.142; //16px
+}
+.fz-sml {
+  font-size: $body-font-size; //14px
+}
+
+@import "~quasar-variables-styl";
