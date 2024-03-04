@@ -2,8 +2,6 @@
 
 ![FireShot Capture 056 - dashboard](https://github.com/YiShanStephyHung/dashboard/assets/77147294/2aefc5ab-a84c-4956-8225-2ac8af5a7657)
 
-## Demo
-
 ## Intro
 這是一個利用 Vue 和 Echarts 製作的 Dashboard
 
