@@ -16,7 +16,7 @@ const useRadar = (element) => {
                 {
                     type: 'radar',
                     areaStyle: {},
-                    data: data
+                    data: data,
                 },
             ]
         };

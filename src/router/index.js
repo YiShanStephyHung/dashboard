@@ -3,6 +3,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 const routes = [
   {
     path: "/",
+    redirect: "/dashboard",
     name: "MainLayout",
     component: () => import("@/layouts/MainLayout.vue"),
     children: [

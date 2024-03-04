@@ -38,12 +38,12 @@ const useLine = (element, titleText) => {
                         color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
                             {
                                 offset: 0,
-                                color: 'rgb(128, 255, 165)'
+                                color: '#71A5DE'
                             },
                             {
                                 offset: 1,
-                                color: 'rgb(1, 191, 236)'
-                            }
+                                color: '#E1ECF7'
+                            },
                         ])
                     },
                     smooth: true,

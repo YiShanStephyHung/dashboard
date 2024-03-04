@@ -28,7 +28,8 @@ const useBar = (element) => {
                     type: 'bar',
                     showBackground: true,
                     backgroundStyle: {
-                        color: 'rgba(180, 180, 180, 0.2)'
+                        // color: 'rgba(180, 180, 180, 0.2)'
+                        color: '#EDE7E3'
                     },
                     itemStyle: {
                         borderRadius: [10, 10, 0, 0]
